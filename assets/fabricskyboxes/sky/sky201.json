@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "minecraft:optifine/sky/world0/201-300_clouds/sky201_sunset_overcast.png",
+	"blend": {"type" : "screen"},
+	"properties": {
+		"priority": 201,
+		"fade": {
+			"startFadeIn": 10666,
+			"endFadeIn": 11666,
+			"startFadeOut": 13166,
+			"endFadeOut": 14166
+			},
+		"shouldRotate": true,
+		"rotation": {
+			"rotationSpeed": 0.866,
+			"static": [0.0, 0.0, 0.0],
+			"axis": [0.0, -180.0, 0.0]
+			},
+		"transitionSpeed": 0.001
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear", "rain", "thunder", "snow"],
+		"yRanges": [{"min": -128.0, "max": 256.0}],
+		"biomes": [
+			"snowy_plains",
+			"ice_spikes",
+			"snowy_taiga",
+			"grove",
+			"snowy_slopes",
+			"frozen_peaks",
+			"jagged_peaks",
+			"frozen_river",
+			"snowy_beach",
+			"frozen_ocean",
+			"deep_frozen_ocean"
+			]
+		},
+	"decorations": {
+		"showSun": true,
+		"showMoon": true,
+		"showStars": false
+		}
+}

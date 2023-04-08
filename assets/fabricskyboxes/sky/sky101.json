@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "minecraft:optifine/sky/world0/101-200_decor_above_clouds/sky101_shooting_star1.png",
+	"blend": {"type" : "add"},
+	"properties": {
+		"priority": 101,
+		"fade": {
+			"startFadeIn": 14455,
+			"endFadeIn": 14470,
+			"startFadeOut": 14510,
+			"endFadeOut": 14525
+			},
+		"shouldRotate": true,
+		"rotation": {
+			"rotationSpeed": 211.0,
+			"static": [0.0, 0.0, 0.0],
+			"axis": [0.0, 0.0, -30.0]
+			},
+		"transitionSpeed": 1.0
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear"]
+		},
+	"decorations": {
+		"showSun": true,
+		"showMoon": true,
+		"showStars": false
+		}
+}

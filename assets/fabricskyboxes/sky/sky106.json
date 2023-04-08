@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "minecraft:optifine/sky/world0/101-200_decor_above_clouds/sky106_moon_glare.png",
+	"blend": {"type" : "add"},
+	"properties": {
+		"priority": 106,
+		"fade": {
+			"startFadeIn": 13167,
+			"endFadeIn": 14167,
+			"startFadeOut": 21833,
+			"endFadeOut": 22833
+			},
+		"shouldRotate": true,
+		"rotation": {
+			"rotationSpeed": 1.0,
+			"static": [0.0, 0.0, 0.0],
+			"axis": [90.0, 0.0, 0.0]
+			},
+		"transitionSpeed": 0.001
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear", "rain", "thunder", "snow"],
+		"yRanges": [{"min": 0.0, "max": 256.0}],
+		"loop": {
+			"days": 8.0,
+			"ranges": [{"min": 0, "max": 4}, {"min": 5, "max": 8}]
+			}
+		},
+	"decorations": {
+		"showSun": true,
+		"showMoon": true,
+		"showStars": false
+		}
+}

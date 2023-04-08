@@ -1,0 +1,51 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "minecraft:optifine/sky/world0/201-300_clouds/sky211_night_overcast.png",
+	"blend": {"type" : "alpha"},
+	"properties": {
+		"priority": 211,
+		"fade": {
+			"startFadeIn": 13166,
+			"endFadeIn": 14166,
+			"startFadeOut": 21833,
+			"endFadeOut": 22833
+			},
+		"shouldRotate": true,
+		"rotation": {
+			"rotationSpeed": 0.866,
+			"static": [0.0, 0.0, 0.0],
+			"axis": [0.0, -180.0, 0.0]
+			},
+		"transitionSpeed": 0.001,
+		"changeFog": false,
+		"fogColors": {"red": 0.049995, "green": 0.055003, "blue": 0.074678, "alpha": 1.0}
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear", "rain", "thunder", "snow"],
+		"yRanges": [{"min": -128.0, "max": 256.0}],
+		"biomes": [
+			"snowy_plains",
+			"ice_spikes",
+			"snowy_taiga",
+			"grove",
+			"snowy_slopes",
+			"frozen_peaks",
+			"jagged_peaks",
+			"frozen_river",
+			"snowy_beach",
+			"frozen_ocean",
+			"deep_frozen_ocean"
+			],
+		"loop": {
+			"days": 8.0,
+			"ranges": [{"min": 0, "max": 4}, {"min": 5, "max": 8}]
+			}
+		},
+	"decorations": {
+		"showSun": true,
+		"showMoon": true,
+		"showStars": false
+		}
+}

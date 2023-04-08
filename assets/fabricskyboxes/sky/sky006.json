@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "minecraft:optifine/sky/world0/001-100_skies/sky6_day.png",
+	"blend": {"type" : "alpha"},
+	"properties": {
+		"priority": 6,
+		"fade": {
+			"startFadeIn": 23666,
+			"endFadeIn": 666,
+			"startFadeOut": 11333,
+			"endFadeOut": 12333
+			},
+		"shouldRotate": true,
+		"rotation": {
+			"rotationSpeed": 0.234,
+			"static": [0.0, 0.0, 0.0],
+			"axis": [0.0, -180.0, 0.0]
+			},
+		"transitionSpeed": 0.001
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear", "rain", "thunder", "snow"],
+		"yRanges": [{"min": -128.0, "max": 256.0}]
+		},
+	"decorations": {
+		"showSun": true,
+		"showMoon": true,
+		"showStars": false
+		}
+}

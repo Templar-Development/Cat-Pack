@@ -1,0 +1,70 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "minecraft:optifine/sky/world0/201-300_clouds/sky233_night_normal_high.png",
+	"blend": {"type" : "alpha"},
+	"properties": {
+		"priority": 233,
+		"fade": {
+			"startFadeIn": 13166,
+			"endFadeIn": 14166,
+			"startFadeOut": 21833,
+			"endFadeOut": 22833
+			},
+		"shouldRotate": true,
+		"rotation": {
+			"rotationSpeed": 0.866,
+			"static": [0.0, 0.0, 0.0],
+			"axis": [0.0, -180.0, 0.0]
+			},
+		"transitionSpeed": 0.001,
+		"changeFog": false,
+		"fogColors": {"red": 0.049995, "green": 0.055003, "blue": 0.074678, "alpha": 1.0}
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear"],
+		"yRanges": [{"min": 257.0, "max": 319.0}],
+		"biomes": [
+			"the_void",
+			"plains",
+			"sunflower_plains",
+			"swamp",
+			"forest",
+			"flower_forest",
+			"birch_forest",
+			"dark_forest",
+			"old_growth_birch_forest",
+			"old_growth_pine_taiga",
+			"old_growth_spruce_taiga",
+			"taiga",
+			"windswept_hills",
+			"windswept_gravelly_hills",
+			"windswept_forest",
+			"jungle",
+			"sparse_jungle",
+			"bamboo_jungle",
+			"meadow",
+			"stony_peaks",
+			"river",
+			"beach",
+			"stony_shore",
+			"warm_ocean",
+			"lukewarm_ocean",
+			"deep_lukewarm_ocean",
+			"ocean",
+			"deep_ocean",
+			"cold_ocean",
+			"deep_cold_ocean",
+			"mushroom_fields",
+			"dripstone_caves",
+			"lush_caves",
+			"lush_caves"
+			]
+		},
+	"decorations": {
+		"showSun": true,
+		"showMoon": true,
+		"showStars": false
+		}
+}

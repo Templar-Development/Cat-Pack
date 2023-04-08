@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "minecraft:optifine/sky/world0/201-300_clouds/sky235_night_clear_high.png",
+	"blend": {"type" : "alpha"},
+	"properties": {
+		"priority": 235,
+		"fade": {
+			"startFadeIn": 13166,
+			"endFadeIn": 14166,
+			"startFadeOut": 21833,
+			"endFadeOut": 22833
+			},
+		"shouldRotate": true,
+		"rotation": {
+			"rotationSpeed": 0.866,
+			"static": [0.0, 0.0, 0.0],
+			"axis": [0.0, -180.0, 0.0]
+			},
+		"transitionSpeed": 0.001,
+		"changeFog": false,
+		"fogColors": {"red": 0.049995, "green": 0.055003, "blue": 0.074678, "alpha": 1.0}
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear", "rain", "thunder", "snow"],
+		"yRanges": [{"min": 257.0, "max": 319.0}],
+		"biomes": ["desert"]
+		},
+	"decorations": {
+		"showSun": true,
+		"showMoon": true,
+		"showStars": false
+		}
+}

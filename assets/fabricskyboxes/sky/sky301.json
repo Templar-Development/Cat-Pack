@@ -1,0 +1,49 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "minecraft:optifine/sky/world0/301-400_decor_below_clouds/sky301_auroras.png",
+	"blend": {"type" : "alpha"},
+	"properties": {
+		"priority": 301,
+		"fade": {
+			"startFadeIn": 13100,
+			"endFadeIn": 14100,
+			"startFadeOut": 21500,
+			"endFadeOut": 22500
+			},
+		"shouldRotate": true,
+		"rotation": {
+			"rotationSpeed": 0.1,
+			"static": [0.0, 0.0, 0.0],
+			"axis": [0.0, -180.0, 0.0]
+			},
+		"transitionSpeed": 0.001
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear",],
+		"yRanges": [{"min": -128.0, "max": 512.0}],
+		"biomes": [
+			"snowy_plains",
+			"ice_spikes",
+			"snowy_taiga",
+			"grove",
+			"snowy_slopes",
+			"frozen_peaks",
+			"jagged_peaks",
+			"frozen_river",
+			"snowy_beach",
+			"frozen_ocean",
+			"deep_frozen_ocean"
+			],
+		"loop": {
+			"days": 8.0,
+			"ranges": [{"min": 4, "max": 5}]
+			}
+		},
+	"decorations": {
+		"showSun": true,
+		"showMoon": true,
+		"showStars": false
+		}
+}
