@@ -6,9 +6,7 @@
 
   <!-- Fancy badges -->
 <a href="https://github.com/cqb13/Numby-hack/releases"><img src="https://img.shields.io/badge/Version-v.13-blue" alt="Version"></a>
-<img src="https://img.shields.io/badge/Minecraft%20Version-1.19-blue" alt="Minecraft Version">
-<img src="https://img.shields.io/github/languages/code-size/cqb13/Cat-Pack" alt="Code Size">
-<img src="https://img.shields.io/github/stars/cqb13/Cat-Pack" alt="Stars">
+<img src="https://img.shields.io/badge/Minecraft%20Version-1.19.4-blue" alt="Minecraft Version">
 </div>
 
 <div align="center">
