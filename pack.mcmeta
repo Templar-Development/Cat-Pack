@@ -1,6 +1,9 @@
 {
   "pack": {
-    "pack_format": 22,
+    "pack_format": 34,
+    "min_format": 34,
+    "max_format": 67,
+    "supported_formats": { "min_inclusive": 34, "max_inclusive": 67 },
     "description": "§9cats am I right"
   }
 }

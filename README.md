@@ -1,12 +1,11 @@
 <div align="center">
-  <!-- Logo and Title -->
   <img src="pack.png" alt="logo" width="20%"/>
   <h1>Cat Pack</h1>
   <p>A collection of textures I like.</p>
 
-  <!-- Fancy badges -->
 <a href="https://github.com/cqb13/Numby-hack/releases"><img src="https://img.shields.io/badge/Version-v.13-blue" alt="Version"></a>
-<img src="https://img.shields.io/badge/Minecraft%20Version-1.19.4-blue" alt="Minecraft Version">
+<img src="https://img.shields.io/badge/Minecraft%20Version-1.21.8-blue" alt="Minecraft Version">
+
 </div>
 
 <div align="center">

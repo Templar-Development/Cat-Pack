@@ -1,6 +1,5 @@
 {
 	"credit": "Created by Stridey",
-	"credit": "updated by IcatIcatI",
 	"ambientocclusion": false,
 	"textures": {
 		"6": "block/cauldron_water",
@@ -8,7 +7,7 @@
 		"top": "block/cauldron_top",
 		"bottom": "block/cauldron_bottom",
 		"particle": "block/cauldron_side",
-		"side": "block/water_cauldron_side_level_3",
+		"side": "block/cauldron_side",
 		"inside": "block/cauldron_inner"
 	},
 	"elements": [

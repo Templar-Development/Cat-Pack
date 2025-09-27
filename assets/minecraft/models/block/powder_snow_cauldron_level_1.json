@@ -7,7 +7,7 @@
 		"top": "block/cauldron_top",
 		"bottom": "block/cauldron_bottom",
 		"particle": "block/cauldron_side",
-		"side": "block/powder_snow_cauldron_side_level_1",
+		"side": "block/cauldron_side",
 		"inside": "block/cauldron_inner"
 	},
 	"elements": [
